@@ -10,11 +10,11 @@ import { map } from 'rxjs/operators';
 export class ProductService {
   private baseUrl = 'http://localhost:8080/api/products';
 
-  constructor(private httpClience: HttpClient) {}
+  constructor(private httpClient: HttpClient) {}
 
   // return an observable, map the JSON data from spring data rest to product array
   getProductList(): Observable<Product[]> {
-    return this.httpClience
+    return this.httpClient
       .get<GetResponse>(this.baseUrl)
       .pipe(map((response) => response._embedded.products));
   }
