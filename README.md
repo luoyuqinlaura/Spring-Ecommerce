@@ -6,3 +6,22 @@
 
 # E-Commerce release 2.0
 
+## Online Shop Template Integration
+
+Html + css file integration with Angular
+
+<img src="imgs/2.1.2.png">
+
+<img src="imgs/2.1.1.png">
+
+
+
+## Search for products by category
+
+make left category working
+
+### Angular routing
+
+in angular, you can add link which will route to other components in application and update a section of the page instead of whole page.
+
+1.Define Routes
