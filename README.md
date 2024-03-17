@@ -1,6 +1,6 @@
 # E-commerce 1.0
 
-<img src="imgs/untitled.png">
+<img src="imgs/1.1.1.png">
 
 
 
@@ -18,7 +18,9 @@ Html + css file integration with Angular
 
 ## Search for products by category
 
-make left category working
+make left navigation bar working according to category show products
+
+ <img src="imgs/2.1.3.gif">
 
 ### Angular routing
 
@@ -39,3 +41,4 @@ in angular, you can add link which will route to other components in application
 
 6.modify spring boot app, RESR repository needs new method for a given category id
 
+7.update angular service to call new url on spring boot app
