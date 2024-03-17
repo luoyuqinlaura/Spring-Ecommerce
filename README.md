@@ -25,3 +25,10 @@ make left category working
 in angular, you can add link which will route to other components in application and update a section of the page instead of whole page.
 
 1.Define Routes
+
+2.configure router based on routes
+
+3.define the router outlet
+
+4.setup router links to pass category id param
+
