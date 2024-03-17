@@ -32,3 +32,7 @@ in angular, you can add link which will route to other components in application
 
 4.setup router links to pass category id param
 
+5.enhance productListComponent to read category id param
+
+* activatedRoute is injected which is useful for accessing route parameters
+

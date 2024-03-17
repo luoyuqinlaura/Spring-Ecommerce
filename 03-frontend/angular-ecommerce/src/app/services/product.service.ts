@@ -13,7 +13,8 @@ export class ProductService {
   constructor(private httpClient: HttpClient) {}
 
   // return an observable, map the JSON data from spring data rest to product array
-  getProductList(): Observable<Product[]> {
+  getProductList(theCategoryId: number): Observable<Product[]> {
+    //@TODO: need to build url based on category id...
     return this.httpClient
       .get<GetResponse>(this.baseUrl)
       .pipe(map((response) => response._embedded.products));
