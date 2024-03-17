@@ -35,4 +35,7 @@ in angular, you can add link which will route to other components in application
 5.enhance productListComponent to read category id param
 
 * activatedRoute is injected which is useful for accessing route parameters
+* update product list service
+
+6.modify spring boot app, RESR repository needs new method for a given category id
 
