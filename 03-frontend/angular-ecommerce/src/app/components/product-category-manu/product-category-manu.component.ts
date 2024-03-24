@@ -12,13 +12,14 @@ export class ProductCategoryManuComponent implements OnInit {
 
   constructor(private productService: ProductService) {}
 
-  ngOnInit(): void {
-    this.listProductCategories();
+  ngOnInit() {
+    console.log('=========== are we here?');
+    // this.listProductCategories();
   }
-  listProductCategories() {
-    this.productService.getProductCategories().subscribe((data) => {
-      console.log('Product Categories = ' + JSON.stringify(data));
-      this.productCategories = data;
-    });
-  }
+  // listProductCategories() {
+  //   this.productService.getProductCategories().subscribe((data) => {
+  //     console.log('Product Categories = ' + JSON.stringify(data));
+  //     this.productCategories = data;
+  //   });
+  // }
 }

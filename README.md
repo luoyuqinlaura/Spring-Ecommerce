@@ -59,3 +59,5 @@ in angular, you can add link which will route to other components in application
 
 5.update product service to call URL on Spring Boot app
 
+6.in HTML, replace hard-coded links with menu component
+
