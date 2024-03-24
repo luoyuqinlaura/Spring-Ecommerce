@@ -79,5 +79,7 @@ in angular, you can add link which will route to other components in application
 
 3.add new angular route for searching
 
+4.update searchComponent to send data to search route
+
 
 
