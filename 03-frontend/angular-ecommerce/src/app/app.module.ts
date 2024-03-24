@@ -8,7 +8,9 @@ import { ProductService } from './services/product.service';
 
 import { RouterModule, Routes } from '@angular/router';
 import { ProductCategoryManuComponent } from './components/product-category-manu/product-category-manu.component';
+import { SearchComponent } from './components/search/search.component';
 const routes: Routes = [
+  { path: 'search/:keyword', component: ProductListComponent },
   { path: 'category/:id', component: ProductListComponent },
   { path: 'category', component: ProductListComponent },
   { path: 'products', component: ProductListComponent },
@@ -17,7 +19,12 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, ProductListComponent, ProductCategoryManuComponent],
+  declarations: [
+    AppComponent,
+    ProductListComponent,
+    ProductCategoryManuComponent,
+    SearchComponent,
+  ],
   imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(routes)],
   // 这能让我们把这个service inject到other part of application
   providers: [ProductService],

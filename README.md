@@ -75,3 +75,9 @@ in angular, you can add link which will route to other components in application
 
 1.add new search method
 
+2.create new component for search
+
+3.add new angular route for searching
+
+
+
