@@ -61,3 +61,17 @@ in angular, you can add link which will route to other components in application
 
 6.in HTML, replace hard-coded links with menu component
 
+
+
+
+
+## Search product by key word
+
+其他流程是相似的，backend创建search method，然后在angular创建component，简历一个route和这个component链接起来。
+
+* event binding： 这里我们需要点击search 按钮才会触发，而且需要用户输入
+
+
+
+1.add new search method
+
