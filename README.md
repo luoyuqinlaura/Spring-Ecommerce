@@ -42,3 +42,11 @@ in angular, you can add link which will route to other components in application
 6.modify spring boot app, RESR repository needs new method for a given category id
 
 7.update angular service to call new url on spring boot app
+
+
+
+
+
+## Search products by category(dynamic)
+
+1.modify spring boot - expose entity ids
