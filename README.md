@@ -81,5 +81,7 @@ in angular, you can add link which will route to other components in application
 
 4.update searchComponent to send data to search route
 
+5.enhance productlistcomponent to search for products with productService
+
 
 
