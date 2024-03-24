@@ -67,6 +67,8 @@ in angular, you can add link which will route to other components in application
 
 ## Search product by key word
 
+<img src="imgs/3.1.1.gif">
+
 其他流程是相似的，backend创建search method，然后在angular创建component，简历一个route和这个component链接起来。
 
 * event binding： 这里我们需要点击search 按钮才会触发，而且需要用户输入
@@ -82,6 +84,8 @@ in angular, you can add link which will route to other components in application
 4.update searchComponent to send data to search route
 
 5.enhance productlistcomponent to search for products with productService
+
+6.update productservice to call url on spring boot app
 
 
 
