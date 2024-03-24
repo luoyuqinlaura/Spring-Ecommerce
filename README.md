@@ -101,5 +101,5 @@ in angular, you can add link which will route to other components in application
 
 点击图片或者文字都会跳转到商品详细页面，routerlink的作用，（跳转的指挥站），前面的1和2只是说明了链接和相应体。
 
-
+4.make productDetailComponent can retrieve product from ProductService
 
