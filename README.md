@@ -97,5 +97,9 @@ in angular, you can add link which will route to other components in application
 
 2.add new angular route for product details
 
+3.add router links to the product-list-grid HTML page
+
+点击图片或者文字都会跳转到商品详细页面，routerlink的作用，（跳转的指挥站），前面的1和2只是说明了链接和相应体。
+
 
 
