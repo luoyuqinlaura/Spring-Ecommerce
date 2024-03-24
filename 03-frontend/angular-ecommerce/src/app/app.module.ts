@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductService } from './services/product.service';
 
 import { RouterModule, Routes } from '@angular/router';
+import { ProductCategoryManuComponent } from './components/product-category-manu/product-category-manu.component';
 const routes: Routes = [
   { path: 'category/:id', component: ProductListComponent },
   { path: 'category', component: ProductListComponent },
@@ -16,7 +17,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, ProductListComponent],
+  declarations: [AppComponent, ProductListComponent, ProductCategoryManuComponent],
   imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(routes)],
   // 这能让我们把这个service inject到other part of application
   providers: [ProductService],

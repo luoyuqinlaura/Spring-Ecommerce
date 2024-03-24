@@ -50,3 +50,8 @@ in angular, you can add link which will route to other components in application
 ## Search products by category(dynamic)
 
 1.modify spring boot - expose entity ids
+
+2.create a class: productCategory
+
+3.create new component for menu
+
