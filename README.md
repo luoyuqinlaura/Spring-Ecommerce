@@ -89,3 +89,13 @@ in angular, you can add link which will route to other components in application
 
 
 
+
+
+## Product master - detail view
+
+1.create component for product details
+
+2.add new angular route for product details
+
+
+

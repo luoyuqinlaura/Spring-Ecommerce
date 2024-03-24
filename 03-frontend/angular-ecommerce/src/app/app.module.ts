@@ -9,7 +9,9 @@ import { ProductService } from './services/product.service';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductCategoryManuComponent } from './components/product-category-manu/product-category-manu.component';
 import { SearchComponent } from './components/search/search.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
 const routes: Routes = [
+  { path: 'products/:id', component: ProductDetailsComponent },
   { path: 'search/:keyword', component: ProductListComponent },
   { path: 'category/:id', component: ProductListComponent },
   { path: 'category', component: ProductListComponent },
@@ -24,6 +26,7 @@ const routes: Routes = [
     ProductListComponent,
     ProductCategoryManuComponent,
     SearchComponent,
+    ProductDetailsComponent,
   ],
   imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(routes)],
   // 这能让我们把这个service inject到other part of application
