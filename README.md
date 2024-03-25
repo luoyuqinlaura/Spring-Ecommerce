@@ -93,6 +93,8 @@ in angular, you can add link which will route to other components in application
 
 ## Product master - detail view
 
+<img src="imgs/3.1.2.gif">
+
 1.create component for product details
 
 2.add new angular route for product details
@@ -102,4 +104,8 @@ in angular, you can add link which will route to other components in application
 点击图片或者文字都会跳转到商品详细页面，routerlink的作用，（跳转的指挥站），前面的1和2只是说明了链接和相应体。
 
 4.make productDetailComponent can retrieve product from ProductService
+
+5.update productService according method
+
+6.update product detail html page
 
